@@ -50,7 +50,7 @@ export const InputField = (props: InputProps): JSX.Element => {
           {...inputProps}
           required={required}
           placeholder={placeholder}
-          className="border border-gray-200 border-solid rounded-md py-3 px-4 w-full bg-white"
+          className="border border-gray-300 border-solid rounded-md py-3 px-4 w-full bg-transparent"
         />
         {error && (
           <p className="mt-2 text-sm text-red-600" id="email-error">
